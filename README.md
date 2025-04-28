@@ -4,7 +4,7 @@ This demonstrate the implementation of html table to make chessboard. Here you c
 ***First***, wrap your table inside \<table> tag and you can add the rest using emmet shortcut
 
 ```c
-table>tbody>(tr>(td*8))*8
+table>tbody>(tr>(td*8)*8)
 // it means you make 8 rows table and 8 columns table respectively
 
 //now give the <table> tag attributes
