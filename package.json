@@ -1,0 +1,19 @@
+{
+  "name": "fgo24-html-chessboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server"
+  },
+  "keywords": [
+    "chessboard",
+    "table",
+    "html"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Make chessboard using html table only",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
