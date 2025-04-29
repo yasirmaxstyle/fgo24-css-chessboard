@@ -1,21 +1,38 @@
-# MAKE CHESSBOARD USING HTML TABLE
+# CHESSBOARD WITH HTML TABLE
 
-This demonstrate the implementation of html table to make chessboard. Here you can make it as well
-***First***, wrap your table inside \<table> tag and you can add the rest using emmet shortcut
+This project demonstrate the implementation of html table to make a chessboard.
 
-```c
-table>tbody>(tr>(td*8)*8)
-// it means you make 8 rows table and 8 columns table respectively
+>This project implement CSS constraint, hence you will find some obsolete tags and attributes come into use for styling.
 
-//now give the <table> tag attributes
-<table border="1" width="500px" height="500px">
+## How to run this project
 
-//now give the children attribute bgcolor black and white
-<td bgcolor="white"></td>
-<td bgcolor="black"></td>
-
-// do it until the end respectively
-
+1. Clone the repository
+```sh
+git clone https://github.com/yasirmaxstyle/fgo24-html-chessboard.git
 ```
-
-Now, run it using **live-server** package by npm
+2. Install npm
+```
+npm install -y
+```
+3. Install live-server to run the project in dev dependencies
+```
+npm install -D live-server
+```
+4. Add script dev in package.json with value live-server
+```sh
+"scripts": {
+    "dev": "live-server"
+}
+```
+5. Run the project
+```
+npm run dev
+```
+## How to take part in this project
+You are free to fork this project, make improvement and submit a pull request to improve this project. If you find this useful or if you have suggestion, you can start discussing through my social media below.
+- [Instagram](https://www.instagram.com/yasirmaxstyle/)
+- [LinkedIn](https://www.linkedin.com/in/muhamad-yasir-806230117/)
+## Third-party dependencies
+- [live-server](https://github.com/tapio/live-server)
+## License
+This project is under MIT License
