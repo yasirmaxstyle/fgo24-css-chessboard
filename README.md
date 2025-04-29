@@ -5,6 +5,9 @@ This project demonstrate the implementation of html table to make a chessboard.
 >This project implement CSS constraint, hence you will find some obsolete tags and attributes come into use for styling.
 
 ## How to run this project
+### Requirement
+- Node JS
+### Download and installation
 
 1. Clone the repository
 ```sh
