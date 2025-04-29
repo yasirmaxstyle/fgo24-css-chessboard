@@ -4,101 +4,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="making chessboard using html table only">
+    <meta name="description" content="making chessboard using box model">
     <title>Chessboard</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        #container {
+            border: 1px solid black;
+            width: fit-content;
+            padding: 5px;
+            margin: auto;
+        }
+
+        .inline {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+        }
+
+        .container-1>.inline:nth-child(odd) {
+            background-color: white;
+        }
+
+        .container-1>.inline:nth-child(even) {
+            background-color: black;
+        }
+
+        .container-2>.inline:nth-child(odd) {
+            background-color: black;
+        }
+
+        .container-2>.inline:nth-child(even) {
+            background-color: white;
+        }
+    </style>
 </head>
 
 <body>
-    <h1 align="center">CHESSBOARD</h1>
-    <table border="1" align="center" width="500px" height="500px">
-        <tbody>
-            <tr>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-            </tr>
-            <tr>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-            </tr>
-            <tr>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-            </tr>
-            <tr>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-            </tr>
-            <tr>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-            </tr>
-            <tr>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-            </tr>
-            <tr>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-            </tr>
-            <tr>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-                <td bgcolor="black"></td>
-                <td bgcolor="white"></td>
-            </tr>
-        </tbody>
-    </table>
-    <div>
-        <p align="center">Made with HTML Table only, no CSS</p>
+    <h1>CHESSBOARD</h1>
+    <div id="container">
+        <div class="container-1">
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+        </div>
+        <div class="container-2">
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+        </div>
+        <div class="container-1">
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+        </div>
+        <div class="container-2">
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+        </div>
+        <div class="container-1">
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+        </div>
+        <div class="container-2">
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+        </div>
+        <div class="container-1">
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+        </div>
+        <div class="container-2">
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+            <div class="inline"></div>
+        </div>
     </div>
-    <!-- emmet -->
-    <!-- table>tbody>((tr>(td[bgcolor=white width=10 height=10]+td[bgcolor=black width=10 height=10])*4)+(tr>(td[bgcolor=black width=10 height=10]+td[bgcolor=white width=10 height=10])*4))*4 -->
 </body>
 
 </html>
