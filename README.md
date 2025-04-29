@@ -1,8 +1,6 @@
-# CHESSBOARD WITH HTML TABLE
+# CHESSBOARD
 
-This project demonstrate the implementation of html table to make a chessboard.
-
->This project implement CSS constraint, hence you will find some obsolete tags and attributes come into use for styling.
+This project demonstrate the implementation of html and CSS box model to make a chessboard.
 
 ## How to run this project
 ### Requirement
@@ -10,25 +8,25 @@ This project demonstrate the implementation of html table to make a chessboard.
 ### Download and installation
 
 1. Clone the repository
-```properties
-git clone https://github.com/yasirmaxstyle/fgo24-html-chessboard.git
+```sh
+git clone https://github.com/yasirmaxstyle/fgo24-css-chessboard.git
 ```
-2. Install npm
-```properties
+2. Install `npm`
+```sh
 npm install -y
 ```
-3. Install live-server to run the project in dev dependencies
-```properties
+3. Install `live-server` to run the project in `dev` dependencies
+```sh
 npm install -D live-server
 ```
-4. Add script dev in package.json with value live-server
+4. Add script `dev` in `package.json` with value `live-server`
 ```c
 "scripts": {
     "dev": "live-server"
 }
 ```
 5. Run the project
-```properties
+```sh
 npm run dev
 ```
 ## How to take part in this project
