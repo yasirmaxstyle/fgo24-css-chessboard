@@ -1,6 +1,6 @@
 # CHESSBOARD
 
-This project demonstrate the implementation of html and CSS box model to make a chessboard.
+This project demonstrate the implementation of html and CSS box model to make a chessboard and styling with inline CSS.
 
 ## How to run this project
 ### Requirement
