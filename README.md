@@ -10,25 +10,25 @@ This project demonstrate the implementation of html table to make a chessboard.
 ### Download and installation
 
 1. Clone the repository
-```sh
+```properties
 git clone https://github.com/yasirmaxstyle/fgo24-html-chessboard.git
 ```
 2. Install npm
-```
+```properties
 npm install -y
 ```
 3. Install live-server to run the project in dev dependencies
-```
+```properties
 npm install -D live-server
 ```
 4. Add script dev in package.json with value live-server
-```sh
+```c
 "scripts": {
     "dev": "live-server"
 }
 ```
 5. Run the project
-```
+```properties
 npm run dev
 ```
 ## How to take part in this project
